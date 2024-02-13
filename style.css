@@ -1,0 +1,14 @@
+.upper {
+    background-color: #1F2937;
+}
+h1 {
+   color: #F9FAF8; 
+}
+p {
+   color:#E5E7EB;
+}
+.header {
+    display: flex;
+    align-items: center;
+    
+}
