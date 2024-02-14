@@ -1,14 +1,23 @@
-.upper {
+body {
+    font-family: roboto;
     background-color: #1F2937;
 }
-h1 {
-   color: #F9FAF8; 
-}
-p {
-   color:#E5E7EB;
-}
-.header {
+
+
+.upper {
     display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+h1 {
+    color: #F9FAF8;
+
+}
+.headerright {
+    color:#E5E7EB;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
     align-items: center;
-    
 }
