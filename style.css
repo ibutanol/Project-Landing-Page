@@ -19,6 +19,9 @@ h1 {
     font-size: 24px;
 
 }
+p {
+    font-size: 18px;
+}
 .headerright,.headerleft {
     color:#E5E7EB;
     display: flex;
