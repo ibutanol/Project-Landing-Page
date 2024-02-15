@@ -8,15 +8,16 @@ body {
 
 .upper,.under {
     display: flex;
-    justify-content: space-between;
     padding-top: 0px;
     padding-left: 100px;
     padding-right: 100px;
 }
+.upper{
+    justify-content: space-between;
+}
 
-h1 {
+h2 {
     color: #F9FAF8;
-    font-size: 24px;
 
 }
 p {
@@ -25,8 +26,13 @@ p {
 .headerright,.headerleft {
     color:#E5E7EB;
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items:center;
+    height:30px;
     gap: 16px;;
     margin-top: 0; /* Remove any default margin */
 }
-    
+
+. {
+    max-width: 100px; /* Set the maximum width */
+    max-height: 50px; /* Set the maximum height */
+}
