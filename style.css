@@ -32,7 +32,10 @@ p {
     margin-top: 0; /* Remove any default margin */
 }
 
-. {
-    max-width: 100px; /* Set the maximum width */
-    max-height: 50px; /* Set the maximum height */
+.image img{
+
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    max-height: 100%; /* Set the maximum height to 100% of its container */
+    width: auto; /* Ensure the width adjusts proportionally */
+    height: auto; /* Ensure the height adjusts proportionally */
 }
