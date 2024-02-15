@@ -27,7 +27,15 @@ body {
 
 }
 .button {
-    
+    width: 150px; /* Change the width to your desired value */
+    background: #3882F6;
+    color: white;
+    font-family: roboto;
+    max-width: 200px;
+    font-size: 18px; /* Increase font size */
+    padding: 10px; /* Adjust padding */
+    border-radius: 15px;
+    border: none; /* Remove the border */
 }
 h1{
     color: #F9FAF8;   
@@ -56,4 +64,9 @@ p {
     max-height: 100%; /* Set the maximum height to 100% of its container */
     width: auto; /* Ensure the width adjusts proportionally */
     height: auto; /* Ensure the height adjusts proportionally */
+}
+@media (max-width: 800px) {
+    .image {
+        display: none; /* Hide the image */
+    }
 }
