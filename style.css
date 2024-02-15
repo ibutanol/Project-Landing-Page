@@ -16,7 +16,11 @@ body {
 
 h1 {
     color: #F9FAF8;
+    font-size: 24px;
 
+}
+p {
+    font-size: 18px;
 }
 .headerright,.headerleft {
     color:#E5E7EB;
