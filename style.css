@@ -3,6 +3,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column; /* Reiht die Felder übereinander an  */
+    gap:100px;
 
 }
 
@@ -14,17 +15,34 @@ body {
 }
 .upper{
     justify-content: space-between;
-}
 
+}
+.under {
+    gap: 40px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.button {
+    
+}
+h1{
+    color: #F9FAF8;   
+    font-size: 48px;
+}
 h2 {
     color: #F9FAF8;
 
 }
 p {
     font-size: 18px;
+    color: #d2d5dc;
 }
 .headerright,.headerleft {
-    color:#E5E7EB;
+    color:#d2d5dc;
     display: flex;
     align-items:center;
     height:30px;
