@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
+    font-family: roboto;
 }
 .first {
-    font-family: roboto;
     background-color: #1F2937;
     display: flex;
     flex-direction: column; /* Reiht die Felder übereinander an  */
@@ -53,7 +53,7 @@ body {
     color: #F9FAF8;
 
 }
-p {
+.container p {
     font-size: 18px;
     color: #d2d5dc;
     margin-top: 5px;
@@ -82,3 +82,30 @@ p {
 
 /* second part */
 
+.second {
+    display: flex;
+    ;
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+
+
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.pic img{
+
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    max-height: 100%; /* Set the maximum height to 100% of its container */
+    width: auto; /* Ensure the width adjusts proportionally */
+    height: auto; /* Ensure the height adjusts proportionally */
+}
+@media (max-width: 800px) {
+    .pic {
+        display: none; /* Hide the image */
+    }
+}
