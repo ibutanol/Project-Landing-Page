@@ -39,12 +39,12 @@
     border-radius: 15px;
     border: none; /* Remove the border */
 }
-h1{
+.container h1{
     color: #F9FAF8;   
     font-size: 48px;
     margin-bottom: 5px;
 }
-h2 {
+.headerleft h2 {
     color: #F9FAF8;
 
 }
