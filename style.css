@@ -1,3 +1,8 @@
+/* first part */
+
+body {
+    margin: 0;
+}
 .first {
     font-family: roboto;
     background-color: #1F2937;
@@ -10,15 +15,15 @@
 .upper,.under {
     display: flex;
     padding-top: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .upper{
     justify-content: space-between;
 
 }
 .under {
-    gap: 40px;
+    gap: 90px;
     margin: 20px auto;
     margin-bottom: 100px;
     
@@ -59,7 +64,7 @@ p {
     align-items:center;
     height:30px;
     gap: 16px;;
-    margin-top: 0; /* Remove any default margin */
+    margin-top: 10px; /* Remove any default margin */
 }
 
 .image img{
@@ -74,3 +79,6 @@ p {
         display: none; /* Hide the image */
     }
 }
+
+/* second part */
+
