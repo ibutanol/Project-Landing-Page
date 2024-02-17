@@ -84,9 +84,7 @@ body {
 
 .second {
     display: flex;
-    padding-top: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 200px; /* Adjust padding */
     flex-direction: column;
 
 
@@ -95,6 +93,8 @@ body {
 .title {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .pic img{
 
@@ -108,9 +108,17 @@ body {
 
 .pic {
     display: flex;
-    justify-content: flex-end; 
-    width: 100px;
-    height: 100px; 
-    gap: 20px; /*Abstand zum anderen Items sind 20px */
+    gap: 40px; /*Abstand zum anderen Items sind 20px */
+
+}
+
+.pictext {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /*Abstand zum anderen Items sind 20px */
+}
+
+.second p {
+    text-align: center;
 
 }
