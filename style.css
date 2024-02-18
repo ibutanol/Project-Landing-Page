@@ -43,6 +43,7 @@ body {
     padding: 10px; /* Adjust padding */
     border-radius: 15px;
     border: none; /* Remove the border */
+    cursor: pointer;
 }
 .container h1{
     color: #F9FAF8;   
@@ -144,4 +145,22 @@ body {
 }
 .quote h2 {
     text-align: end;
+}
+.fourth {
+    display: flex;
+    
+    background: #3882F6;
+
+}
+.fourth button {
+    border: 1px solid #E5E7EB;;
+}
+.go {
+    display: flex;
+
+
+}
+.button:hover {
+    background-color: #2980b9; /* Change this to the desired button color on hover */
+    border-color: #3498db; /* Change this to the desired border color on hover */
 }
