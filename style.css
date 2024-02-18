@@ -87,7 +87,7 @@ body {
     display: flex;
     padding: 0 200px; /* Adjust padding */
     flex-direction: column;
-
+    margin-bottom: 100px;
 
 
 }
