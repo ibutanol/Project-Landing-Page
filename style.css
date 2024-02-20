@@ -151,6 +151,9 @@ body {
     flex-direction: column; 
     align-items: center;
     background: #3882F6;
+    margin: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
 
 }
 .fourth button {
@@ -159,8 +162,20 @@ body {
 .go {
     display: flex;
     margin: 100px;
-    gap: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
 }
+.go-left{
+    color: #e5edff;
+    font-size: 18px;
+}
+
+.go-right{
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+
 .button:hover {
     background-color: #2980b9; /* Change this to the desired button color on hover */
     border-color: #3498db; /* Change this to the desired border color on hover */
